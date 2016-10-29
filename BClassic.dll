@@ -1,0 +1,24 @@
+
+# BClassic DLL is a collection of one Namespace and a class.
+
+This is just a simple namespace defined for newbies. I will be creating a complicated DLL Files which will ease your daily coding headache.
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace BClassicDLL
+{
+    public class Class1
+    {
+        /* Custom Constructor with NO return type, using Public access modifier*/
+        Int16 MyName; 
+        public Class1(Int16 Name)
+        {
+            MyName = Name;
+        }
+
+    }
+}
